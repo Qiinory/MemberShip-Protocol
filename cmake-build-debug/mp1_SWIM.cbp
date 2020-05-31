@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mp1_SWIM"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mp1_SWIM">
+				<Option output="/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/mp1_SWIM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/luguoqing/Desktop/mp1-SWIM/."/>
+					<Add directory="/Users/luguoqing/Desktop/mp1-SWIM/testcases"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 mp1_SWIM"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mp1_SWIM/fast">
+				<Option output="/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/mp1_SWIM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/luguoqing/Desktop/mp1-SWIM/."/>
+					<Add directory="/Users/luguoqing/Desktop/mp1-SWIM/testcases"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 mp1_SWIM/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/Application.cpp">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/Application.h">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/EmulNet.cpp">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/EmulNet.h">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/Grader.sh">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/Log.cpp">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/Log.h">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/MP1Node.cpp">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/MP1Node.h">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/Makefile">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/Member.cpp">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/Member.h">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/Params.cpp">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/Params.h">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/Queue.h">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/mp1_specifications.pdf">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/run.sh">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/stdincludes.h">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/submit.py">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/testcases/msgdropsinglefailure.conf">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/testcases/multifailure.conf">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/testcases/singlefailure.conf">
+			<Option target="mp1_SWIM"/>
+		</Unit>
+		<Unit filename="/Users/luguoqing/Desktop/mp1-SWIM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
