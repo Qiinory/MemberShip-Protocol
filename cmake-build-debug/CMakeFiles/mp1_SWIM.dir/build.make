@@ -43,10 +43,10 @@ RM = "/Users/luguoqing/Library/Application Support/JetBrains/Toolbox/apps/CLion/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/luguoqing/Desktop/mp1-SWIM
+CMAKE_SOURCE_DIR = /Users/luguoqing/Desktop/MemberShip-Protocol
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/luguoqing/Desktop/MemberShip-Protocol/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mp1_SWIM.dir/depend.make
@@ -59,81 +59,81 @@ include CMakeFiles/mp1_SWIM.dir/flags.make
 
 CMakeFiles/mp1_SWIM.dir/Application.cpp.o: CMakeFiles/mp1_SWIM.dir/flags.make
 CMakeFiles/mp1_SWIM.dir/Application.cpp.o: ../Application.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mp1_SWIM.dir/Application.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mp1_SWIM.dir/Application.cpp.o -c /Users/luguoqing/Desktop/mp1-SWIM/Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luguoqing/Desktop/MemberShip-Protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mp1_SWIM.dir/Application.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mp1_SWIM.dir/Application.cpp.o -c /Users/luguoqing/Desktop/MemberShip-Protocol/Application.cpp
 
 CMakeFiles/mp1_SWIM.dir/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mp1_SWIM.dir/Application.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luguoqing/Desktop/mp1-SWIM/Application.cpp > CMakeFiles/mp1_SWIM.dir/Application.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luguoqing/Desktop/MemberShip-Protocol/Application.cpp > CMakeFiles/mp1_SWIM.dir/Application.cpp.i
 
 CMakeFiles/mp1_SWIM.dir/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mp1_SWIM.dir/Application.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luguoqing/Desktop/mp1-SWIM/Application.cpp -o CMakeFiles/mp1_SWIM.dir/Application.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luguoqing/Desktop/MemberShip-Protocol/Application.cpp -o CMakeFiles/mp1_SWIM.dir/Application.cpp.s
 
 CMakeFiles/mp1_SWIM.dir/EmulNet.cpp.o: CMakeFiles/mp1_SWIM.dir/flags.make
 CMakeFiles/mp1_SWIM.dir/EmulNet.cpp.o: ../EmulNet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mp1_SWIM.dir/EmulNet.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mp1_SWIM.dir/EmulNet.cpp.o -c /Users/luguoqing/Desktop/mp1-SWIM/EmulNet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luguoqing/Desktop/MemberShip-Protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mp1_SWIM.dir/EmulNet.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mp1_SWIM.dir/EmulNet.cpp.o -c /Users/luguoqing/Desktop/MemberShip-Protocol/EmulNet.cpp
 
 CMakeFiles/mp1_SWIM.dir/EmulNet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mp1_SWIM.dir/EmulNet.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luguoqing/Desktop/mp1-SWIM/EmulNet.cpp > CMakeFiles/mp1_SWIM.dir/EmulNet.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luguoqing/Desktop/MemberShip-Protocol/EmulNet.cpp > CMakeFiles/mp1_SWIM.dir/EmulNet.cpp.i
 
 CMakeFiles/mp1_SWIM.dir/EmulNet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mp1_SWIM.dir/EmulNet.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luguoqing/Desktop/mp1-SWIM/EmulNet.cpp -o CMakeFiles/mp1_SWIM.dir/EmulNet.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luguoqing/Desktop/MemberShip-Protocol/EmulNet.cpp -o CMakeFiles/mp1_SWIM.dir/EmulNet.cpp.s
 
 CMakeFiles/mp1_SWIM.dir/Log.cpp.o: CMakeFiles/mp1_SWIM.dir/flags.make
 CMakeFiles/mp1_SWIM.dir/Log.cpp.o: ../Log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mp1_SWIM.dir/Log.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mp1_SWIM.dir/Log.cpp.o -c /Users/luguoqing/Desktop/mp1-SWIM/Log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luguoqing/Desktop/MemberShip-Protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mp1_SWIM.dir/Log.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mp1_SWIM.dir/Log.cpp.o -c /Users/luguoqing/Desktop/MemberShip-Protocol/Log.cpp
 
 CMakeFiles/mp1_SWIM.dir/Log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mp1_SWIM.dir/Log.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luguoqing/Desktop/mp1-SWIM/Log.cpp > CMakeFiles/mp1_SWIM.dir/Log.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luguoqing/Desktop/MemberShip-Protocol/Log.cpp > CMakeFiles/mp1_SWIM.dir/Log.cpp.i
 
 CMakeFiles/mp1_SWIM.dir/Log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mp1_SWIM.dir/Log.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luguoqing/Desktop/mp1-SWIM/Log.cpp -o CMakeFiles/mp1_SWIM.dir/Log.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luguoqing/Desktop/MemberShip-Protocol/Log.cpp -o CMakeFiles/mp1_SWIM.dir/Log.cpp.s
 
 CMakeFiles/mp1_SWIM.dir/Member.cpp.o: CMakeFiles/mp1_SWIM.dir/flags.make
 CMakeFiles/mp1_SWIM.dir/Member.cpp.o: ../Member.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mp1_SWIM.dir/Member.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mp1_SWIM.dir/Member.cpp.o -c /Users/luguoqing/Desktop/mp1-SWIM/Member.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luguoqing/Desktop/MemberShip-Protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mp1_SWIM.dir/Member.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mp1_SWIM.dir/Member.cpp.o -c /Users/luguoqing/Desktop/MemberShip-Protocol/Member.cpp
 
 CMakeFiles/mp1_SWIM.dir/Member.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mp1_SWIM.dir/Member.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luguoqing/Desktop/mp1-SWIM/Member.cpp > CMakeFiles/mp1_SWIM.dir/Member.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luguoqing/Desktop/MemberShip-Protocol/Member.cpp > CMakeFiles/mp1_SWIM.dir/Member.cpp.i
 
 CMakeFiles/mp1_SWIM.dir/Member.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mp1_SWIM.dir/Member.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luguoqing/Desktop/mp1-SWIM/Member.cpp -o CMakeFiles/mp1_SWIM.dir/Member.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luguoqing/Desktop/MemberShip-Protocol/Member.cpp -o CMakeFiles/mp1_SWIM.dir/Member.cpp.s
 
 CMakeFiles/mp1_SWIM.dir/MP1Node.cpp.o: CMakeFiles/mp1_SWIM.dir/flags.make
 CMakeFiles/mp1_SWIM.dir/MP1Node.cpp.o: ../MP1Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mp1_SWIM.dir/MP1Node.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mp1_SWIM.dir/MP1Node.cpp.o -c /Users/luguoqing/Desktop/mp1-SWIM/MP1Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luguoqing/Desktop/MemberShip-Protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mp1_SWIM.dir/MP1Node.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mp1_SWIM.dir/MP1Node.cpp.o -c /Users/luguoqing/Desktop/MemberShip-Protocol/MP1Node.cpp
 
 CMakeFiles/mp1_SWIM.dir/MP1Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mp1_SWIM.dir/MP1Node.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luguoqing/Desktop/mp1-SWIM/MP1Node.cpp > CMakeFiles/mp1_SWIM.dir/MP1Node.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luguoqing/Desktop/MemberShip-Protocol/MP1Node.cpp > CMakeFiles/mp1_SWIM.dir/MP1Node.cpp.i
 
 CMakeFiles/mp1_SWIM.dir/MP1Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mp1_SWIM.dir/MP1Node.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luguoqing/Desktop/mp1-SWIM/MP1Node.cpp -o CMakeFiles/mp1_SWIM.dir/MP1Node.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luguoqing/Desktop/MemberShip-Protocol/MP1Node.cpp -o CMakeFiles/mp1_SWIM.dir/MP1Node.cpp.s
 
 CMakeFiles/mp1_SWIM.dir/Params.cpp.o: CMakeFiles/mp1_SWIM.dir/flags.make
 CMakeFiles/mp1_SWIM.dir/Params.cpp.o: ../Params.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mp1_SWIM.dir/Params.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mp1_SWIM.dir/Params.cpp.o -c /Users/luguoqing/Desktop/mp1-SWIM/Params.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luguoqing/Desktop/MemberShip-Protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mp1_SWIM.dir/Params.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mp1_SWIM.dir/Params.cpp.o -c /Users/luguoqing/Desktop/MemberShip-Protocol/Params.cpp
 
 CMakeFiles/mp1_SWIM.dir/Params.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mp1_SWIM.dir/Params.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luguoqing/Desktop/mp1-SWIM/Params.cpp > CMakeFiles/mp1_SWIM.dir/Params.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luguoqing/Desktop/MemberShip-Protocol/Params.cpp > CMakeFiles/mp1_SWIM.dir/Params.cpp.i
 
 CMakeFiles/mp1_SWIM.dir/Params.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mp1_SWIM.dir/Params.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luguoqing/Desktop/mp1-SWIM/Params.cpp -o CMakeFiles/mp1_SWIM.dir/Params.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luguoqing/Desktop/MemberShip-Protocol/Params.cpp -o CMakeFiles/mp1_SWIM.dir/Params.cpp.s
 
 # Object files for target mp1_SWIM
 mp1_SWIM_OBJECTS = \
@@ -155,7 +155,7 @@ mp1_SWIM: CMakeFiles/mp1_SWIM.dir/MP1Node.cpp.o
 mp1_SWIM: CMakeFiles/mp1_SWIM.dir/Params.cpp.o
 mp1_SWIM: CMakeFiles/mp1_SWIM.dir/build.make
 mp1_SWIM: CMakeFiles/mp1_SWIM.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable mp1_SWIM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/luguoqing/Desktop/MemberShip-Protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable mp1_SWIM"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mp1_SWIM.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +168,6 @@ CMakeFiles/mp1_SWIM.dir/clean:
 .PHONY : CMakeFiles/mp1_SWIM.dir/clean
 
 CMakeFiles/mp1_SWIM.dir/depend:
-	cd /Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/luguoqing/Desktop/mp1-SWIM /Users/luguoqing/Desktop/mp1-SWIM /Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug /Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug /Users/luguoqing/Desktop/mp1-SWIM/cmake-build-debug/CMakeFiles/mp1_SWIM.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/luguoqing/Desktop/MemberShip-Protocol/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/luguoqing/Desktop/MemberShip-Protocol /Users/luguoqing/Desktop/MemberShip-Protocol /Users/luguoqing/Desktop/MemberShip-Protocol/cmake-build-debug /Users/luguoqing/Desktop/MemberShip-Protocol/cmake-build-debug /Users/luguoqing/Desktop/MemberShip-Protocol/cmake-build-debug/CMakeFiles/mp1_SWIM.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mp1_SWIM.dir/depend
 

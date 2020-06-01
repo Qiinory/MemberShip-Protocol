@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sd
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/luguoqing/Desktop/mp1-SWIM/. -I/Users/luguoqing/Desktop/mp1-SWIM/testcases 
+CXX_INCLUDES = -I/Users/luguoqing/Desktop/MemberShip-Protocol/. -I/Users/luguoqing/Desktop/MemberShip-Protocol/testcases 
 

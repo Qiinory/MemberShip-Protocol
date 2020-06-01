@@ -20,7 +20,6 @@ add_executable(mp1_SWIM
         Makefile
         Member.cpp
         Member.h
-        mp1_specifications.pdf
         MP1Node.cpp
         MP1Node.h
         Params.cpp
