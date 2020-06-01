@@ -143,10 +143,12 @@ public:
 	vector<MemberListEntry>::iterator myPos;
 	// Queue for failure detection messages
 	queue<q_elt> mp1q;
+
+	size_t traPointer;
 	/**
 	 * Constructor
 	 */
-	Member(): inited(false), inGroup(false), bFailed(false), nnb(0), heartbeat(0), pingCounter(0), timeOutCounter(0) {}
+	Member(): inited(false), inGroup(false), bFailed(false), nnb(0), heartbeat(0), pingCounter(0), timeOutCounter(0), traPointer(1){}
 	// copy constructor
 	Member(const Member &anotherMember);
 	// Assignment operator overloading

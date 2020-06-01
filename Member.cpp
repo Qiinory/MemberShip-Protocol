@@ -176,6 +176,7 @@ Member::Member(const Member &anotherMember) {
 	this->memberList = anotherMember.memberList;
 	this->myPos = anotherMember.myPos;
 	this->mp1q = anotherMember.mp1q;
+	this->traPointer = anotherMember.traPointer;
 }
 
 /**
@@ -193,6 +194,7 @@ Member& Member::operator =(const Member& anotherMember) {
 	this->memberList = anotherMember.memberList;
 	this->myPos = anotherMember.myPos;
 	this->mp1q = anotherMember.mp1q;
+	this->traPointer = anotherMember.traPointer;
 	return *this;
 }
 

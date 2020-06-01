@@ -361,13 +361,15 @@ bool MP1Node::recvCallBack(void *env, char *data, int size ) {
  */
 void MP1Node::nodeLoopOps() {
 
-    const int N = 2, K = 2; //N个消息，发送给K个对象
+    const int N = 3, K = 2; //N个消息，发送给K个对象
 
-    const int timeOut = 5;
+    const int timeOut = 20;//敏锐度，值越小，则对消息迟到的容忍度越高，同步也就越慢
 
-    const int clear = timeOut + 45;
+    const int clear = timeOut + 25;//清除阈值，值越高对消息迟到的容忍度也会提高
 
 	int index, n = 0, k = 0, size = memberNode->memberList.end() - memberNode->memberList.begin();
+
+	vector<MemberListEntry>::iterator first;
 
 	//注意这个地方
 	srand(par->getcurrtime() + time(nullptr));
@@ -381,7 +383,7 @@ void MP1Node::nodeLoopOps() {
     msgType->msgType = NORMAL;
 
     //选取任意n个消息，发送给K个对象
-    for (auto first = memberNode->memberList.begin(); first != memberNode->memberList.end();) {
+    for (first = memberNode->memberList.begin(); first != memberNode->memberList.end();) {
 
 
         if (first != memberNode->memberList.begin()) {
@@ -421,13 +423,19 @@ void MP1Node::nodeLoopOps() {
         first++;
 
     }
-
+    //随机给一个发送消息的起始点
     index = (size - 1) > 0 ? rand()%(size-1)+1 : 1;
 
     int flag = 0;
     //shuffle(memberNode->memberList.begin()+1, memberNode->memberList.end(), std::mt19937(std::random_device()()));
-    //随机给一个发送消息的起始点
-    for (auto first = memberNode->memberList.begin()+index; first != memberNode->memberList.end() && k < K;) {
+
+    /*
+    if (memberNode->traPointer >= size) {
+        memberNode->traPointer = 1;//按序遍历，效果不好
+    }
+     */
+
+    for (first = memberNode->memberList.begin() + index; k < K;) {
 
         if ((*first).state == ACTIVE) {
             emulNet->ENsend(&memberNode->addr,
@@ -440,15 +448,16 @@ void MP1Node::nodeLoopOps() {
         first++;
 
         if (first == memberNode->memberList.end()) {
-            if (flag == 0) {
-                first = memberNode->memberList.begin() + 1;
+            first = memberNode->memberList.begin() + 1;
+            if (flag == 0)
                 flag = 1;
-            } else
+            else
                 break;
         }
 
     }
 
+    //memberNode->traPointer = first - memberNode->memberList.begin();
     free(msgType);
 
 
